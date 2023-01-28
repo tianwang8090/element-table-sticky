@@ -5,8 +5,6 @@ import ElTableSticky from '../../src/index'
 export default async ({
   Vue
 }) => {
-  if (typeof process === 'undefined') {
-    Vue.use(ElementUI);
-    Vue.directive('table-sticky', ElTableSticky);
-  }
+  Vue.use(ElementUI);
+  Vue.directive('table-sticky', ElTableSticky);
 }
