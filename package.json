@@ -1,0 +1,20 @@
+{
+  "name": "element-table-sticky",
+  "version": "1.0.0",
+  "description": "a directive for Element to sticky el-table when scrolling",
+  "main": "src/index.js",
+  "repository": "git@github.com:tianwang8090/element-table-sticky.git",
+  "author": "tianwang8090@163.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn docs:dev",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "async-validator": "1.11.5",
+    "element-ui": "^2.15.12",
+    "vuepress": "^1.9.8",
+    "vuepress-plugin-demo-container": "^0.2.0"
+  }
+}
