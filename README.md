@@ -1,5 +1,7 @@
 # element-table-sticky
 
+[DEMO](https://tianwang8090.github.io/element-table-sticky/)
+
 a directive for Element to sticky el-table when scrolling.
 
 Element UI 库表格表头固定指令。
