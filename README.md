@@ -1,10 +1,10 @@
 # element-table-sticky
 
-[DEMO](https://tianwang8090.github.io/element-table-sticky/)
-
-a directive for Element(Vue@2.x) to sticky el-table when scrolling.
+A directive for Element(Vue@2.x) to sticky el-table when scrolling.
 
 Element UI 库表格表头固定指令。
+
+> Another brother directive 这个工具还有个兄弟 [element-table-scroll](https://tianwang8090.github.io/element-table-scroll/)
 
 ![demo](./demo.gif)
 
@@ -12,7 +12,9 @@ Element UI 库表格表头固定指令。
 
 1. Install 安装
 
-    `npm i element-table-sticky`
+    ```sh
+    npm i element-table-sticky
+    ```
 
 2. Register 注册指令
 
@@ -23,7 +25,7 @@ Element UI 库表格表头固定指令。
 
 3. Using 使用
 
-    ```js
+    ```vue
     <el-table
       v-table-sticky
       ...

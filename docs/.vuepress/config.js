@@ -6,6 +6,7 @@ module.exports = {
   themeConfig: {
     sidebar: [
       '/',
+      '/normal',
       '/fixed-col-table'
     ]
   }
